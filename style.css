@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.sidebar {
+    background-color: rgb(248, 74, 161);
+    width: 200px;
+    height: 120vh;
+    font-family: "Sofia", sans-serif;
+}
+
+.sidebar nav {
+    width: 50vw;
+    padding: 2px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 28px;
+    padding: 35px;
+}
+.sidebar nav a {
+   text-decoration: none;
+   color: black;
+}
+
+
+.main {
+    /* background-color: url("bg.png"); */
+    width: 100%;
+}
+
+
+.container {
+    display: flex;
+}
+
+
+.infoContainer {
+    /* background-color: url("bg.png"); */
+    height: 60vh;
+    width: 85vw;
+    margin: auto;
+    margin-top: 51px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.pic img{
+    width: 20vw;
+    height: 60vh;
+    
+} 
+
+.devInfo{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    left: 500px;
+}
+
+.hello{
+    font-size: 25px;
+    color:  rgb(248, 74, 161);}
+.Name{
+    font-size: 35px;
+    color: rgb(211, 37, 124);}
+.about{
+    margin-top: 30px;
+    font-size: 25px;
+    color: rgb(248, 74, 161);
+}
+   /* color: aliceblue;
+    margin-top: 30px;
+}.socail{
+  */
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    margin-left: 510px ;
+    position: relative;
+    
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+    margin-left: 510px ;
+  }
+  .fa-youtube{
+    background: red;
+    color: white;
+    margin-left: 510px ;
+  }
+  .fa-google{
+    background: white;
+    color: green;
+    margin-left: 510px ;
+  }
+
+/*    contact    */
+
+
+form{
+    /* background: #fff; */
+    display: flex;
+    flex-direction: column;
+    padding-left: 700px;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 20px;
+}
+
+form h3{
+    color: #555;
+    font-weight: 800;
+    margin-bottom: 20px;
+    
+}
+form input,form textarea{
+    border: 0;
+    margin: 10px;
+    padding :20px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 14px;
+    width: 500px;
+}
+
+form button{
+    padding:15px ;
+    background: #ff5361;
+    /* color:#fff; */
+    font-size:18px ;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+.query{
+    color: rgb(235, 198, 213);
+    width: 200vw;
+    font-size: 5rem;
+    padding-top: 150px;
+    padding-left: 40%;
+    padding-right: 60%;
+}
+
+
+
+
+/*    skills    */
+
+.SL{
+    padding-top: 20px;
+}
+.header{
+    text-align: center;
+    color: rgb(235, 198, 213);
+    content: none;
+    padding: 40px;
+    position: center;
+    text-align: center;
+    padding-left: 200px;
+    font-size: 5rem;
+    content: '';
+    position: absolute;
+    left: 30%;
+    
+}
+
+.Scontainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 1rem;
+    padding-top: 200px;
+    padding-right: 80px;
+    padding-left: 350px;
+    font-size: 1.2rem;
+}
+.skill-box{
+    padding: 1rem;
+    color: rgb(248, 74, 161);
+    cursor: pointer;
+}
+.skill-box:hover > .skill-title:after, .skill-box:hover > .skill-title:after{
+    width: 35px;
+}
+.skill-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:0.5 rem;
+    position: relative;
+}
+.skill-title:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    width: 35px;
+    height: 4px;
+    border-radius:2px 0 0 2px ;
+    transition: .5s;
+}
+
+.skill-title:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 35px;
+    height: 4px;
+    border-radius: 0 2px 2px 0  ;
+    transition: .5s;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-radius: 45px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-title h3{
+    color: #692424;
+    margin-top: 3px;
+}
+.skill-icon{
+    width: 100px;
+}
+.women{
+    padding-top: 250px;
+    padding-left: 40px;
+}
+
+
+
+
+/*          about            */
+.me{
+    color: rgb(235, 198, 213);
+    font-size: 25px;
+}
+.about1{
+    font-size: 5rem;
+    color: rgb(248, 74, 161);
+    padding-left: 30px;
+}
