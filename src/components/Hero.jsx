@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
-import himanshiImage from '../../dist/assets/himanshi.jpeg';
+import himanshiImage from '../himanshi.jpeg';
 
 const Hero = () => {
   return (
